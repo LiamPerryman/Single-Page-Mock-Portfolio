@@ -8,7 +8,9 @@ let imgWidth = img.offsetWidth + 20;
 window.addEventListener("resize", () => {
   imgWidth = img.offsetWidth + 20;
 });
-
+window.addEventListener("scroll", () => {
+  imgWidth = img.offsetWidth + 20;
+});
 next.addEventListener("click", () => {
   if (direction === -1) direction = 1;
   direction = -1;
