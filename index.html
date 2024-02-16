@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./output.css" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
-
-    <title>Frontend Mentor | Single-page design portfolio</title>
+    <title>Single page mock portfolio</title>
   </head>
   <body class="bg-[#FFF7F0]">
     <div
-      class="max-w-[1110px] w-full h-full mx-auto flex flex-col items-center gap-20 px-10 max-sm:px-3"
+      class="max-w-[1440px] w-full h-full mx-auto flex flex-col items-center gap-20 px-10 max-sm:px-3"
     >
       <nav class="w-full flex justify-between pt-10">
         <img class="h-[64px] max-sm:h-[3rem]" src="./assets/logo.svg" alt="" />
@@ -68,7 +66,7 @@
         </div>
       </section>
       <section
-        class="flex max-md:flex-col max-md:justify-center justify-between items-center w-full gap-10"
+        class="flex max-md:flex-col max-md:justify-center justify-between items-center gap-20"
       >
         <img
           class="max-sm:h-[300px] max-md:h-[364px] h-[445px] max-md:translate-x-0 max-lg:-translate-x-24"
@@ -96,16 +94,13 @@
       <section class="flex flex-col gap-5">
         <h1 class="text-center text-[32px] sm:text-2xl font-bold">My work</h1>
 
-        <div class="w-screen bg-purple h-[400px] flex justify-center items-center overflow-hidden">
+        <div
+          class="carousel h-[400px] max-lg:max-w-[550px] w-full flex justify-center items-center overflow-clip"
+        >
           <div
-            class="slider flex w-full justify-center items-center gap-5 translate-x-[1400px] transition-transform ease-in-out duration-500"
+            class="slider justify-center flex items-center gap-5 transition-transform ease-in-out duration-500"
           >
-            <img class="rounded-lg" src="./assets/image-slide-1.jpg" alt="" />
-            <img class="rounded-lg" src="./assets/image-slide-2.jpg" alt="" />
-            <img class="rounded-lg" src="./assets/image-slide-3.jpg" alt="" />
-            <img class="rounded-lg" src="./assets/image-slide-4.jpg" alt="" />
-            <img class="rounded-lg" src="./assets/image-slide-5.jpg" alt="" />
-            <img class="rounded-lg" src="./assets/image-slide-1.jpg" alt="" />
+            <img class="rounded-lg img" src="./assets/image-slide-1.jpg" alt="" />
             <img class="rounded-lg" src="./assets/image-slide-2.jpg" alt="" />
             <img class="rounded-lg" src="./assets/image-slide-3.jpg" alt="" />
             <img class="rounded-lg" src="./assets/image-slide-4.jpg" alt="" />

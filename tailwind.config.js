@@ -23,6 +23,9 @@ module.exports = {
       animation: {
         arrowRight: "arrowRight 5s ease-in-out infinite",
       },
+      width: {
+        1440: "1440px",
+      },
     },
   },
   plugins: [],
