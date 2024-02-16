@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Single-page design portfolio</title>
+  </head>
+  <body class="bg-[#FFF7F0]">
+    <div
+      class="max-w-[1110px] w-full h-full mx-auto flex flex-col items-center gap-20 px-10 max-sm:px-3"
+    >
+      <nav class="w-full flex justify-between pt-10">
+        <img class="h-[64px] max-sm:h-[3rem]" src="./assets/logo.svg" alt="" />
+        <button
+          class="h-[56px] w-[228px] max-sm:w-[176px] max-sm:h-[44px] rounded-full text-white max-sm:text-[.875rem] bg-black hover:bg-purple hover:cursor-pointer transition-all ease-in-out duration-300"
+        >
+          Free Consultation
+        </button>
+      </nav>
+      <header class="text-center flex flex-col gap-5 w-full max-w-[47rem]">
+        <h1 class="text-6xl max-lg:text-[44px]">Design solutions made easy</h1>
+        <p class="text-grey text-lg">
+          With over ten years of experience in various design disciplines, I’m your one-stop shop
+          for your design needs.
+        </p>
+      </header>
+      <section
+        class="max-lg:max-w-[690px] lg:max-w-[1110px] w-full max-sm:grid-rows-6 max-sm:grid-cols-2 max-sm:h-[1164px] max-lg:h-[35.625rem] lg:h-[22.75rem] grid lg:grid-cols-6 max-lg:grid-flow-cols-4 max-lg:grid-rows-3 lg:grid-rows-2 gap-5"
+      >
+        <div
+          class="max-lg:row-start-1 row-span-2 col-start-1 col-span-2 bg-purple rounded-lg text-white text-[24px] font-bold capitalize flex items-end p-5 relative"
+        >
+          <img class="absolute top-5 right-5" src="./assets/pattern-graphic-design.svg" alt="" />
+          <p>graphic design</p>
+        </div>
+        <div
+          class="max-sm:row-span-1 max-sm:row-start-3 max-sm:col-start-1 row-span-1 bg-orange col-start-3 rounded-lg text-white text-[24px] font-bold uppercase flex items-end p-5 relative"
+        >
+          <img class="absolute top-5 right-5" src="./assets/pattern-ui-ux.svg" alt="" />
+          <p>ui/ux</p>
+        </div>
+        <div
+          class="max-sm:row-span-1 max-sm:row-start-3 max-sm:col-start-2 row-span-1 bg-pink col-start-4 rounded-lg text-white text-[24px] font-bold capitalize flex items-end p-5 relative"
+        >
+          <img class="absolute top-5 right-5" src="./assets/pattern-apps.svg" alt="" />
+          <p>apps</p>
+        </div>
+        <div
+          class="row-span-1 max-sm:row-start-5 bg-teal max-lg:col-start-1 lg:col-start-5 col-span-2 max-lg:row-start-3 rounded-lg text-white text-[24px] font-bold capitalize flex items-end p-5 relative"
+        >
+          <img class="absolute top-5 right-5" src="./assets/pattern-photography.svg" alt="" />
+          <p>photography</p>
+        </div>
+        <div
+          class="row-span-1 max-sm:row-start-4 bg-hotPink max-sm:col-start-1 col-start-3 row-start-2 col-span-2 rounded-lg text-white text-[24px] font-bold capitalize flex items-end p-5 relative"
+        >
+          <img class="absolute top-5 right-5" src="./assets/pattern-illustrations.svg" alt="" />
+          <p>illustrations</p>
+        </div>
+        <div
+          class="row-span-1 max-sm:row-start-6 max-sm:col-start-1 bg-violet max-lg:col-start-3 lg:col-start-5 md:row-start-3 lg:row-start-2 col-span-2 rounded-lg text-white text-[24px] font-bold capitalize flex items-end p-5 relative"
+        >
+          <img class="absolute top-5 right-5" src="./assets/pattern-motion-graphics.svg" alt="" />
+          <p>motion graphics</p>
+        </div>
+      </section>
+      <section
+        class="flex max-md:flex-col max-md:justify-center justify-between items-center w-full gap-10"
+      >
+        <img
+          class="max-sm:h-[300px] max-md:h-[364px] h-[445px] max-md:translate-x-0 max-lg:-translate-x-24"
+          src="./assets/image-amy.webp"
+          alt=""
+        />
+        <div
+          class="max-w-[540px] w-full flex flex-col max-md:justify-center max-md:items-center max-md:text-center gap-10"
+        >
+          <h2 class="text-4xl max-sm:text-2xl">
+            I’m Amy, and I’d love to work on your next project
+          </h2>
+          <p class="text-grey md:text-[16px] text-[14px]">
+            I love working with others to create beautiful design solutions. I’ve designed
+            everything from brand illustrations to complete mobile apps. I’m also handy with a
+            camera!
+          </p>
+          <button
+            class="h-[56px] w-[228px] max-sm:w-[176px] max-sm:h-[44px] rounded-full text-white max-sm:text-[.875rem] bg-hotPink hover:bg-orange hover:cursor-pointer transition-all ease-in-out duration-300"
+          >
+            Free Consultation
+          </button>
+        </div>
+      </section>
+      <section class="flex flex-col gap-5">
+        <h1 class="text-center text-[32px] sm:text-2xl font-bold">My work</h1>
+
+        <div class="w-screen bg-purple h-[400px] flex justify-center items-center overflow-hidden">
+          <div
+            class="slider flex w-full justify-center items-center gap-5 translate-x-[1400px] transition-transform ease-in-out duration-500"
+          >
+            <img class="rounded-lg" src="./assets/image-slide-1.jpg" alt="" />
+            <img class="rounded-lg" src="./assets/image-slide-2.jpg" alt="" />
+            <img class="rounded-lg" src="./assets/image-slide-3.jpg" alt="" />
+            <img class="rounded-lg" src="./assets/image-slide-4.jpg" alt="" />
+            <img class="rounded-lg" src="./assets/image-slide-5.jpg" alt="" />
+            <img class="rounded-lg" src="./assets/image-slide-1.jpg" alt="" />
+            <img class="rounded-lg" src="./assets/image-slide-2.jpg" alt="" />
+            <img class="rounded-lg" src="./assets/image-slide-3.jpg" alt="" />
+            <img class="rounded-lg" src="./assets/image-slide-4.jpg" alt="" />
+            <img class="rounded-lg" src="./assets/image-slide-5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="flex gap-5 mx-auto">
+          <button
+            class="btn-left h-[64px] w-[64px] bg-black rounded-full flex justify-center items-center hover:bg-purple hover:cursor-pointer transition-colors ease-in-out duration-300"
+          >
+            <img alt="" src="./assets/icon-arrow-left.svg" />
+          </button>
+          <button
+            class="btn-right h-[64px] w-[64px] bg-black rounded-full flex justify-center items-center hover:bg-purple hover:cursor-pointer transition-colors ease-in-out duration-300"
+          >
+            <img alt="" src="./assets/icon-arrow-right.svg" />
+          </button>
+        </div>
+      </section>
+      <footer
+        class="bg-black lg:p-20 p-10 h-[320px] w-full rounded-lg text-[#FFF7F0] flex max-md:flex-col justify-between items-center md:gap-10"
+      >
+        <div class="w-full md:w-3/5 flex flex-col gap-5 max-md:text-center">
+          <h2 class="text-4xl max-sm:text-2xl">Book a call with me</h2>
+          <p class="text-[16px]">
+            I’d love to have a chat to see how I can help you. The best first step is for us to
+            discuss your project during a free consultation. Then we can move forward from there.
+          </p>
+        </div>
+        <button
+          class="h-[56px] w-[228px] max-sm:w-[176px] max-sm:h-[44px] rounded-full text-white max-sm:text-[.875rem] bg-hotPink hover:bg-orange hover:cursor-pointer transition-all ease-in-out duration-300"
+        >
+          Free Consultation
+        </button>
+      </footer>
+      <div class="w-full flex justify-between pb-10">
+        <img class="h-[64px] max-sm:h-[3rem]" src="./assets/logo.svg" alt="" />
+        <button
+          class="h-[56px] w-[228px] max-sm:w-[176px] max-sm:h-[44px] rounded-full text-white max-sm:text-[.875rem] bg-black hover:bg-purple hover:cursor-pointer transition-all ease-in-out duration-300"
+        >
+          Free Consultation
+        </button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
